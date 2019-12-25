@@ -1,2 +1,41 @@
 desKey:c81e728d9d4c2f636f067f89cc14862c
 retMessage:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllqvCINeADt3fI6JtzUtbKrbSqB5C2dppD2M+qdQA39EvERMJB3IpvKcT0v+DFJRX4UwY4J7ZhpdSWXft/k2nEPRMb2LWw5IAJ5IW93IahV7lvq/O56iOZRWlIiBDXdjX0dx1pt5SMPhQs+pCb5ZXaNFLEcKC+qUuNvxFWxb6DQIDAQAB
+
+
+getLoginedOperInfo
+managerId:"ZHANGSHIQIANG1" -- code
+staffId:194827 -- staffId -->queryOperatorRole
+
+districtId:"36"    -->queryAreaList
+organizeId:469832  -->queryBossId
+
+
+queryOperatorRole
+staffId:194827 -- staffId -->queryOperatorRole
+roleId:"3481"
+
+
+
+queryAreaList
+districtId:"36"    -->queryAreaList
+areaCode:"36"
+
+queryBossOrgId 
+organizeId:469832  -->queryBossId
+bossOrgId:"40131424"
+
+
+
+GetZhTokenInfo
+managerId=V2toQlRrZFRTRWxSU1VGT1J6RT0=  --
+staffId=TVRrME9ESTM=  --
+roleId=TXpRNE1Tdz0= --
+areaCode=TXpZPQ==   --
+bossOrgId=TkRBeE16RTBNalE9 --
+
+
+getLoginedOperInfo
+staffName=张士强        
+managerId:"ZHANGSHIQIANG1"
+bossOrgNames=欣欣手机卖场
+isMobile=false

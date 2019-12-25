@@ -2,7 +2,6 @@ from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_v1_5
 import base64
 
-
 def handle_pub_key(key):
     """
     处理公钥
@@ -21,7 +20,6 @@ def handle_pub_key(key):
         result += key[i*64:(i+1)*64] + '\n'
     result = start + result + end
     return result
-
 
 def encrypt(key, content):
     """
